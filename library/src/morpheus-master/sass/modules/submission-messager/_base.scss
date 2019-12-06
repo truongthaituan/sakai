@@ -1,0 +1,31 @@
+.submission-messager {
+
+  .sm-title {
+    font-weight: bold;
+    font-size: larger;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .sm-label {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 3px;
+  }
+
+  .message-input {
+    width: 300px;
+    height: 200px;
+  }
+
+  .sm-alert {
+    font-weight: bold;
+    margin-top: 10px;
+    &.sm-error {
+      color: red;
+    }
+    &.sm-success {
+      color: green;
+    }
+  }
+}
